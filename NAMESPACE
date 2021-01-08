@@ -1,0 +1,14 @@
+useDynLib(DIMM)
+export(dataset.normal.X1)
+export(dimm)
+export(objective.dimm)
+S3method(print,dimm)
+S3method(print,objective.dimm)
+S3method(print,summary.dimm)
+S3method(summary,dimm)
+importFrom(Rcpp, evalCpp)
+importFrom(RcppParallel, RcppParallelLibs)
+importFrom(foreach,"%dopar%", "%:%")
+importFrom(stats, "coef", "cov", "is.empty.model", "model.matrix",
+             "model.response", "optim", "pchisq", "pnorm",
+             "printCoefmat", "reshape", "rnorm", "runif", "var")

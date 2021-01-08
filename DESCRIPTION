@@ -1,0 +1,20 @@
+Package: DIMM
+Type: Package
+Title: Distributed and Integrated Method of Moments
+Version: 1.0-1
+Date: 2017-10-27
+Author: Emily C. Hector
+Maintainer: [Emily C. Hector] <ehector@umich.edu>
+Description: Performs regression analysis of high-dimensional correlated responses. Divides data into blocks according to supplied indicator, analyses blocks using composite likelihood, and combines blocks using optimal generalized method of moments (GMM) equation.
+License: GPL-3
+Imports: Rcpp (>= 0.12.11),
+	 RcppParallel (>= 4.3.10),
+         Matrix (>= 1.2.11),
+         stats,
+         foreach (>= 1.4.3),
+         doParallel (>= 1.0.11),
+         parallel (>= 3.3.3),
+         MASS (>= 7.3.47)
+LinkingTo: Rcpp, RcppArmadillo, RcppParallel
+SystemRequirements: GNU make
+RoxygenNote: 6.0.1
