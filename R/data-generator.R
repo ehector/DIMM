@@ -1,4 +1,5 @@
 posdef.matrix <- function(n, ev = runif(n, 0, 10), seed){
+  ## Function written by Ravi Varadhan: https://stat.ethz.ch/pipermail/r-help/2008-February/153708
   set.seed(seed)
   Z <- matrix(ncol=n, rnorm(n^2))
   decomp <- qr(Z)
