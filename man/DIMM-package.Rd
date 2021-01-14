@@ -9,6 +9,8 @@
 \packageDescription{DIMM}
 }
 \details{
+  
+  THIS SOURCE CODE IS SUPPLIED "AS IS" WITHOUT WARRANTY OF ANY KIND, AND ITS AUTHOR DISCLAIMS ANY AND ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND ANY WARRANTIES OR NON INFRINGEMENT. THE USER ASSUMES ALL LIABILITY AND RESPONSIBILITY FOR USE OF THIS SOURCE CODE, AND THE AUTHOR WILL NOT BE LIABLE FOR DAMAGES OF ANY KIND RESULTING FROM ITS USE. Without limiting the generality of the foregoing, the author does not warrant that the Source Code will be error-free, will operate without interruption, or will meet the needs of the user.
 
 The DESCRIPTION file:
 \packageDescription{DIMM}
@@ -21,8 +23,11 @@ This easy to use package runs the Distributed and Integrated Method of Moments (
 Maintainer: \packageMaintainer{DIMM}
 }
 \references{
-Lars P. Hansen. (1982), Large sample properties of generalized method of moments estimators, Econometrica 50(4), 1029-1054. \cr
+The posdef.matrix function was written by Ravi Varadhan: https://stat.ethz.ch/pipermail/r-help/2008-February/153708.
+  
+Emily C. Hector and Peter X.-K. Song (2020). A distributed and integrated method of moments for high-dimensional correlated data analysis. Journal of the American Statistical Association, pages 1–14. doi: 10.1080/01621459.2020.1736082.
 
+Lars P. Hansen. (1982), Large sample properties of generalized method of moments estimators, Econometrica 50(4), 1029-1054. \cr
 
 Christiano Varin, Nancy Reid & David Firth. (2011), An overview of composite likelihood methods, Statistica Sinica 21(1), 5-42. \cr
 }
