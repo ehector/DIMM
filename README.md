@@ -24,3 +24,9 @@ If you use the DIMM R package, please consider citing the relevant manuscript: H
 # References
 
 The posdef.matrix function was written by Ravi Varadhan: https://stat.ethz.ch/pipermail/r-help/2008-February/153708.
+
+Emily C. Hector and Peter X.-K. Song (2020). A distributed and integrated method of moments for high-dimensional correlated data analysis. Journal of the American Statistical Association, pages 1–14. doi: 10.1080/01621459.2020.1736082.
+
+Lars P. Hansen. (1982), Large sample properties of generalized method of moments estimators, Econometrica 50(4), 1029-1054.
+
+Christiano Varin, Nancy Reid & David Firth. (2011), An overview of composite likelihood methods, Statistica Sinica 21(1), 5-42.
