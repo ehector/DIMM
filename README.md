@@ -15,7 +15,7 @@ The DIMM R package can be installed in one of two ways:
 - from the downloaded gzipped tarball as R CMD INSTALL DIMM_1.0-1.tar.gz
 - from the downloaded and renamed DIMM folder as R CMD build DIMM and R CMD INSTALL DIMM_1.0-1.tar.gz
 
-Please make sure to have all packages listed in the DESCRIPTION file already installed.
+Please make sure to have all packages listed in the DESCRIPTION file already installed. If you encounter a library not found error for lgfortran, please try installing gfortran from here: https://cran.r-project.org/bin/macosx/tools/.
 
 # Citation
 
